@@ -1,0 +1,9 @@
+.introduce
+{
+    background-color: cyan;
+    width: 600px;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
