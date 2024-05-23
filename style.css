@@ -6,6 +6,7 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%,0%);
+    border-radius: 10px;
 }
 .file{
     background-color:#f66f6a;
@@ -18,4 +19,10 @@
 }
 .file:hover{
     background-color: #a54b4a;
+}
+.Aside
+{
+    border-left: 10px;
+    border-right: 10px;
+    border-color: black;
 }
