@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>猪猪威集团</title>
+        <meta charset="utf-8" />
         <link rel="stylesheet"href="style.css"/>
     </head>
     <body>
@@ -10,7 +11,7 @@
             <p>猪猪威集团创立与2022年9月18日。</p>
             <p>主要运营方向有视频剪辑、编程等。</p>
         </div>
-        <div class="link">
+        <aside class="link">
             <h5><br><br>成员名单</h5>
             <ul>
                 <li>周岗校</li>
@@ -23,6 +24,39 @@
                 <li>石晟睿</li>
                 <li>黄炜恒</li>
             </ul>
+        </aside>
+        <div>
+            <button style="position:absolute;top:50px;right:240px;"class="file"onclick="downloadFile()">映射网盘</button>
+            <script>
+              function downloadFile()
+              {
+                var downloadLink = document.createElement('a');
+                downloadLink.href = '0映射网络盘.exe';
+                downloadLink.download = '0映射网络盘.exe';
+                downloadLink.click();
+              }
+           </script>
+           <button style="position:absolute;top:50px;right:160px;"class="file"onclick="downloadFile()">mind+游戏</button>
+            <script>
+             function downloadFile()
+             {
+                var downloadLink = document.createElement('a');
+                downloadLink.href = 'mind+ and Scratch.7z';
+                downloadLink.download = 'mind+ and Scratch.7z';
+                downloadLink.click();
+            }
+            </script>
+            <button style="position:absolute;top:50px;right:80px;"class="file"onclick="downloadFile()">mind+游戏</button>
+            <script>
+                function downloadFile()
+                {
+                    var downloadLink = document.createElement('a');
+                    downloadLink.href = '账号密码.txt';
+                    downloadLink.download = '账号密码.txt';
+                    downloadLink.click();
+                }
+            </script>
         </div>
+
     </body>
 </html>

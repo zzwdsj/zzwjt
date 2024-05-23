@@ -7,3 +7,15 @@
     left: 50%;
     transform: translate(-50%,0%);
 }
+.file{
+    background-color:#f66f6a;
+    color:white;
+    width: 70px;
+    height: 30px;
+    font-size: 1px;	
+    border: 0;
+    border-radius: 30px;
+}
+.file:hover{
+    background-color: #a54b4a;
+}
