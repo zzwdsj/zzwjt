@@ -26,37 +26,18 @@
             </ul>
         </aside>
         <div>
-            <button style="position:absolute;top:50px;right:240px;"class="file"onclick="downloadFile()">映射网盘</button>
+            <button style="position:absolute;top:50px;right:240px;"class="file"onclick="downloadFile('0映射网络盘.exe')">映射网盘</button>
+            <button style="position:absolute;top:50px;right:160px;"class="file"onclick="downloadFile('mind+ and Scratch.7z')">mind+游戏</button>
+            <button style="position:absolute;top:50px;right:80px;"class="file"onclick="downloadFile('账号密码.txt')">账号密码</button>
             <script>
-              function downloadFile()
-              {
-                var downloadLink = document.createElement('a');
-                downloadLink.href = '0映射网络盘.exe';
-                downloadLink.download = '0映射网络盘.exe';
-                downloadLink.click();
-              }
-           </script>
-           <button style="position:absolute;top:50px;right:160px;"class="file"onclick="downloadFile()">mind+游戏</button>
-            <script>
-             function downloadFile()
-             {
-                var downloadLink = document.createElement('a');
-                downloadLink.href = 'mind+ and Scratch.7z';
-                downloadLink.download = 'mind+ and Scratch.7z';
-                downloadLink.click();
-            }
-            </script>
-            <button style="position:absolute;top:50px;right:80px;"class="file"onclick="downloadFile()">mind+游戏</button>
-            <script>
-                function downloadFile()
+                function downloadFile(x)
                 {
-                    var downloadLink = document.createElement('a');
-                    downloadLink.href = '账号密码.txt';
-                    downloadLink.download = '账号密码.txt';
-                    downloadLink.click();
+                  var downloadLink = document.createElement('a');
+                  downloadLink.href = x;
+                  downloadLink.download = x;
+                  downloadLink.click();
                 }
-            </script>
+             </script>
         </div>
-
     </body>
 </html>
